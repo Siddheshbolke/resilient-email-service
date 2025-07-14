@@ -17,6 +17,7 @@ class RateLimiter {
 }
 function CSSFontFeatureValuesRule(){
     console.log("new feature");
+        console.log("new feature 2");
 
 }
 
