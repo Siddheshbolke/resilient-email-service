@@ -10,10 +10,14 @@ class RateLimiter {
         this.timestamps = this.timestamps.filter(ts => now - ts < this.interval);
         if (this.timestamps.length < this.limit) {
             this.timestamps.push(now);
-            return true;
+            return true
         }
         return false;
     }
+}
+function CSSFontFeatureValuesRule(){
+    console.log("new feature");
+
 }
 
 module.exports = RateLimiter;
